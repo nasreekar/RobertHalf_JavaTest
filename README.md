@@ -1,10 +1,10 @@
 
-This is the solution for the shortest time taken between two stations question
+Solution for the **quickest route** between any two given stations.
 
 The scenario 
 ============
 
-Given an abstract set of train stations (as given below) with predefined routes and travel times, "What is the quickest route between any two given stations?”
+Given an abstract set of train stations (as given below) with predefined routes and travel times, "The quickest route between any two given stations is ..”
 
 Train stations and travel times 
 * A to B takes 3 minutes 
@@ -21,12 +21,14 @@ Train stations and travel times
 Solution
 ==========
 
-I tried to solve this question in **Java** and using [***Dijkstra's algorithm***](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). The videos below can be used for better understanding of the algorithm.
+I tried to solve this question in **Java** and using [***Dijkstra's algorithm***](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). 
+
+The videos below can be used for better understanding of the algorithm.
 * [Graphs: Dijkstra's Algorithm](https://www.youtube.com/watch?v=8Ls1RqHCOPw)
 * [Shortest Path using Dijkstra's Algorithm](https://www.youtube.com/watch?v=WN3Rb9wVYDY)
 
-User will enter the source point and destination point to find the shortest distance between these two points.
-As of now, hardcoded the map values in the code (Can be changed to manual entry if needed)
+**Input fields**: Starting point and End point (for eg: A,E or D,A etc)
+As of now, hardcoded the map values inside the code (Can be changed to manual entry if needed)
 
 Conclusion
 ==========
